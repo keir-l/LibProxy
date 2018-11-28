@@ -22,12 +22,10 @@ chrome.tabs.onUpdated.addListener(function(tabId, changeInfo, tab) {
 			var hostname = getHostName(url);
 		 var publisherURLS = ["journals.sagepub.com", "cambridge.org", "tandfonline.com", "jstor.org", "heinonline.org", "academic.oup.com"];
 		 if (publisherURLS.indexOf(hostname) > -1) {
-		     console.log("Publisher " + hostname + " found, redirecting...");
 				 chrome.tabs.executeScript(tab.ib, {
 			 		file: 'proxy.js'
 			 	});
 		 } else {
-		     console.log(hostname + " does not need to be redirected");
 		 }
 	});
 });
