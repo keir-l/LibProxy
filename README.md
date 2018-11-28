@@ -9,4 +9,4 @@ Warwick Library Proxy Chrome Extension
 
 To install simply visit the Chrome App store here -
 
-To mannually install, clone this git into a folder, navigate to chrome://extensions, select 'Load Unpacked Extension' and choose the folder you just downloaded. 
+To manually install, clone this git into a folder, navigate to chrome://extensions, select 'Load Unpacked Extension' and choose the folder you just downloaded. 
