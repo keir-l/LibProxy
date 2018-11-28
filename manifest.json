@@ -7,7 +7,7 @@
     "page": "settings.html",
     "open_in_tab": false
   },
-  "description": "Automatically loads Publishers pages through a Proxy",
+  "description": "Automatically loads Publishers pages through Warwick Library Proxy",
   "author": "Keir Lawson",
   "homepage_url": "http://keir-l.github.io",
   "background": {
@@ -17,7 +17,7 @@
     "persistent": true
   },
   "browser_action": {
-    "default_title": "LoadProxy"
+    "default_title": "LibProxy"
   },
   "permissions": [
     "https://*/*",
