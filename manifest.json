@@ -1,0 +1,27 @@
+{
+  "name": "LibProxy",
+  "version": "1",
+  "icons": {"128": "icon128.png" },
+  "manifest_version": 2,
+    "options_ui": {
+    "page": "settings.html",
+    "open_in_tab": false
+  },
+  "description": "Automatically loads Publishers pages through a Proxy",
+  "author": "Keir Lawson",
+  "homepage_url": "http://keir-l.github.io",
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": true
+  },
+  "browser_action": {
+    "default_title": "LoadProxy"
+  },
+  "permissions": [
+    "https://*/*",
+    "http://*/*",
+    "tabs"
+  ]
+}
