@@ -16,8 +16,7 @@
     "default_title": "LibProxy"
   },
   "permissions": [
-    "https://*/*",
-    "http://*/*",
-    "tabs"
+    "journals.sagepub.com", "cambridge.org", "tandfonline.com", "jstor.org", "heinonline.org", "academic.oup.com",
+    "activeTab"
   ]
 }
