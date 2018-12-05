@@ -16,7 +16,6 @@
     "default_title": "LibProxy"
   },
   "permissions": [
-    "activeTab", "https://journals.sagepub.com", "https://cambridge.org", "https://tandfonline.com", "https://jstor.org", "https://heinonline.org", "https://academic.oup.com", "https://link.springer.com", "https://www.link.springer.com", "https://www.journals.sagepub.com", "https://www.cambridge.org", "https://www.tandfonline.com", "https://www.jstor.org", "https://www.heinonline.org", "https://www.academic.oup.com"
-
+    "activeTab", "https://www.link.springer.com/", "https://www.journals.sagepub.com/", "https://www.cambridge.org/", "https://www.tandfonline.com/", "https://www.jstor.org/", "https://www.heinonline.org/", "https://www.academic.oup.com/"
   ]
 }
