@@ -7,6 +7,6 @@ Warwick Library Proxy Chrome Extension
 - Signs in to the Warwick Library page automatically
 - Runs  locally - No data is ever sent or stored
 
-To install simply visit the Chrome App store here -
+To install simply visit the Chrome App store here - https://chrome.google.com/webstore/detail/libproxy/khffjhbjfempadhkimnghamggjmdlkfd
 
 To manually install, clone this git into a folder, navigate to chrome://extensions, select 'Load Unpacked Extension' and choose the folder you just downloaded. 
