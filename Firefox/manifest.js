@@ -7,7 +7,8 @@
   "description": "Automatically loads Publications and Articles through a OpenURL Library proxy",
 
   "icons": {
-    "128": "icon128.png"
+    "48": "icon48.png",
+    "96": "icon96.png"
   },
 
   "content_scripts": [
