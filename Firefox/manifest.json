@@ -1,0 +1,34 @@
+{
+
+  "manifest_version": 2,
+  "name": "LibProxy",
+  "version": "1.0",
+
+  "description": "Automatically loads Publications and Articles through a OpenURL Library proxy",
+
+  "icons": {
+    "48": "icon48.png",
+    "96": "icon96.png"
+  },
+
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.link.springer.com/*","*://*.taylorfrancis.com/*","*://*.taylorandfrancis.com/*","*://*.oxfordre.com/*","*://*.oxfordbibliographies.com/*","*://*.journals.sagepub.com/*","*://*.cambridge.org/*","*://*.tandfonline.com/*","*://*.jstor.org/*","*://*.academic.oup.com/*","*://*.heinonline.org/*"],
+      "js": ["proxy.js"]
+    }
+  ],
+
+  "options_ui": {
+    "page": "options.html"
+  },
+
+  "permissions": ["storage"],
+
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "libproxy@keirl.uk"
+    }
+
+}
+}

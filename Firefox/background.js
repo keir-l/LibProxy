@@ -6,6 +6,8 @@ chrome.browserAction.onClicked.addListener(function (tab) {
 		file: 'proxy.js'
 	});
 });
+
+//Wait for Tab URL Change
 chrome.tabs.onUpdated.addListener(function(tabId, changeInfo, tab) {
 	chrome.tabs.query({'active': true, 'lastFocusedWindow': true}, function (tabs) {
 			var url = tabs[0].url;
