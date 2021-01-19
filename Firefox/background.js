@@ -22,7 +22,7 @@ chrome.tabs.onUpdated.addListener(function(tabId, changeInfo, tab) {
 			    }
 			}}
 			var hostname = getHostName(url);
-		 var publisherURLS = ["link.springer.com", "journals.sagepub.com", "cambridge.org", "tandfonline.com", "jstor.org", "heinonline.org", "academic.oup.com"];
+		 var publisherURLS = ["mitpressjournals.org", "degruyter.com", "onlinelibrary.wiley.com", "oxfordbibliographies.com", "oxfordre.com", "link.springer.com", "taylorfrancis.com", "taylorandfrancis", "journals.sagepub.com", "cambridge.org", "tandfonline.com", "jstor.org", "heinonline.org", "academic.oup.com"];
 		 if (publisherURLS.indexOf(hostname) > -1) {
 				 chrome.tabs.executeScript(tab.ib, {
 			 		file: 'proxy.js'
