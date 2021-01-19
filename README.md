@@ -14,6 +14,9 @@ For Chrome users visit the web store - https://chrome.google.com/webstore/detail
 
 To manually install, clone this git, navigate to chrome://extensions, select 'Load Unpacked Extension' and choose the 'Chrome' folder within the folder you just downloaded.
 
+# Edge
+For Edge (Chromium Based) - 'Enable extensions from other stores' in the Extensions menu, then install from the Chrome webstore above.
+
 # Firefox
 For Firefox head to the addons page - https://addons.mozilla.org/en-US/firefox/addon/libproxy/
 
