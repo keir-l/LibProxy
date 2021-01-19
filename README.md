@@ -8,6 +8,7 @@ Library Proxy Browser Extension
 - Specify a Library Proxy using the Options page, or use the default 'University of Warwick' Proxy
 - Manually loads pages through a Library proxy by simply clicking the Extension Icon
 - Runs locally - Only the Proxy URL is Synced, to your Firefox account
+- Currently supports: "mitpressjournals.org", "degruyter.com", "onlinelibrary.wiley.com", "oxfordbibliographies.com", "oxfordre.com", "link.springer.com", "taylorfrancis.com", "taylorandfrancis", "journals.sagepub.com", "cambridge.org", "tandfonline.com", "jstor.org", "heinonline.org", "academic.oup.com"
 
 # Chrome
 For Chrome users visit the web store - https://chrome.google.com/webstore/detail/libproxy/khffjhbjfempadhkimnghamggjmdlkfd
